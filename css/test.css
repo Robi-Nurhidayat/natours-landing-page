@@ -1,0 +1,28 @@
+.container {
+  background-color: lightblue;
+  transition: all 2s;
+  width: 200px;
+  height: 200px;
+}
+.container:hover {
+  background-color: #edb405;
+}
+
+.btn--register:link, .btn--login:link, .btn--login:active {
+  padding: 10px 20px;
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn--login:link, .btn--login:active {
+  background-color: salmon;
+}
+.btn--login:hover {
+  background-color: greenyellow;
+}
+
+.btn--register:link {
+  background-color: gray;
+}/*# sourceMappingURL=test.css.map */
